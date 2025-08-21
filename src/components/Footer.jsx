@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa6";
 
 const Footer = () => {
+  const today = new Date();
   return (
     <div
       className="pt-10 px-4 md:px-20 lg:px-14 bg-gray-900 max-w-full overflow-hidden"
@@ -81,7 +82,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-gray-700 py-4 mt-4 text-center text-gray-500">
-        Designed By Themefisher Developed By Gethugothemes
+        Designed by Dami and Developed by Tobi
       </div>
     </div>
   );

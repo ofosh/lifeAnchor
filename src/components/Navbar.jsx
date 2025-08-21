@@ -1,6 +1,7 @@
 import React from "react";
 import { assets } from "../assets/assets";
 import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -17,9 +18,11 @@ const Navbar = () => {
             <li className="text-xl font-medium text-white leading-[27px] cursor-pointer">
               Causes
             </li>
-            <li className="text-xl font-medium text-white leading-[27px] cursor-pointer">
-              About
-            </li>
+            <Link to={"/about-us"}>
+              <li className="text-xl font-medium text-white leading-[27px] cursor-pointer">
+                About
+              </li>
+            </Link>
             <li className="text-xl font-medium text-white leading-[27px] cursor-pointer">
               Pages
             </li>
@@ -40,9 +43,11 @@ const Navbar = () => {
               Fr
             </option>
           </select>
-          <button className="bg-black py-2 px-4 lg:text-lg text-white rounded cursor-pointer text-sm">
-            Contact us
-          </button>
+          <Link to={"/contact-us"}>
+            <button className="bg-black py-2 px-4 lg:text-lg text-white rounded cursor-pointer text-sm">
+              Contact us
+            </button>
+          </Link>
           <FaSearch className="border px-1 py-1 text-[25px] text-white" />
         </div>
       </div>

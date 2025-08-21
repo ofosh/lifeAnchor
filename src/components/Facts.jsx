@@ -6,13 +6,13 @@ const Facts = () => {
   return (
     <div className="py-4 mt-5 px-8 container mx-auto">
       <div className="flex flex-col lg:flex-row lg:justify-between items-center justify-center">
-        <div className="flex flex-col">
-          <div className="flex items-center justify-start mb-4 gap-3">
+        <div className="flex flex-col items-center justify-center">
+          <div className="flex items-center justify-center lg:justify-start mb-4 gap-3">
             <h4>Our Facts</h4>
             <hr className="w-30 text-gray-300" />
           </div>
           <div>
-            <h3 className="text-3xl font-semibold">
+            <h3 className="lg:text-3xl  text-sm font-semibold">
               We believe <br /> We can impact more lives positively with you....
             </h3>
           </div>

@@ -5,8 +5,8 @@ const News = () => {
   return (
     <div className="py-4 mt-5 px-8 container mx-auto">
       <div className="flex flex-col lg:flex-row lg:justify-between items-center justify-center">
-        <div className="flex flex-col">
-          <div className="flex items-center justify-start mb-4 gap-3">
+        <div className="flex flex-col items-center justify-center">
+          <div className="flex items-center justify-center lg:justify-start mb-4 gap-3">
             <h4>Our Facts</h4>
             <hr className="w-30 text-gray-300" />
           </div>

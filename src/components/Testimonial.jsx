@@ -19,7 +19,7 @@ const Testimonial = () => {
           </h3>
           <p className="text-center text-lg">Founder</p>
           <img src={assets.quote} alt="" />
-          <p className="text-center text-[20px] font-[700] w-[1100px] my-3 leading-[28px]">
+          <p className="text-center text-[20px] font-[700] max-w-sm lg:max-w-2xl my-3 leading-[28px]">
             Empowering Communities:"Working with LifeAnchor has been a
             life-changing experience. Through their education initiatives, I've
             seen firsthand how they help lift communities out of poverty. Their

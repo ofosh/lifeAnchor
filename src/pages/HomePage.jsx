@@ -12,14 +12,16 @@ import Footer from "../components/Footer";
 const HomePage = () => {
   return (
     <>
-      <Banner />
-      <About />
-      <Causes />
-      <Testimonial />
-      <Facts />
-      <News />
-      <Brands />
-      <Footer />
+      <div className="overflow-hidden ">
+        <Banner />
+        <About />
+        <Causes />
+        <Testimonial />
+        <Facts />
+        <News />
+        <Brands />
+        <Footer />
+      </div>
     </>
   );
 };

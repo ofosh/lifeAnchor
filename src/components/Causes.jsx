@@ -4,7 +4,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Causes = () => {
   return (
-    <div className="px-8 py-6 container 2xl:px-20 mx-auto my-10">
+    <div className="px-8 py-6 container 2xl:px-20 mx-auto overflow-hidden my-10">
       <div className="flex flex-col lg:flex-row lg:justify-between items-center justify-center px-4">
         <div className="flex flex-col">
           <div className="flex items-center justify-start mb-4 gap-3">

@@ -99,6 +99,28 @@ export const factsCard = [
     text: "Country Member",
   },
 ];
+export const factsCard1 = [
+  {
+    imgUrl: fact_1,
+    num: "4597+",
+    text: "People Raised",
+  },
+  {
+    imgUrl: fact_2,
+    num: "8945+",
+    text: "Volunteer",
+  },
+  {
+    imgUrl: fact_3,
+    num: "10M+",
+    text: "Poor People Saved",
+  },
+  {
+    imgUrl: fact_4,
+    num: "100+",
+    text: "Country Member",
+  },
+];
 
 export const news = [
   {
@@ -129,5 +151,5 @@ export const brand = [
   { imgUrl: company_2 },
   { imgUrl: company_3 },
   { imgUrl: company_4 },
-  { imgUrl: company_5 },
+  // { imgUrl: company_5 },
 ];
