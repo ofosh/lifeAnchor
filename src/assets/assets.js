@@ -2,6 +2,8 @@ import about_1 from "../assets/about_1.png";
 import about_2 from "../assets/about_2.png";
 import about_3 from "../assets/about_3.png";
 import about_4 from "../assets/about_4.png";
+import menu_icon from "../assets/menu_icon_dark.svg";
+import close_icon from "../assets/close_icon.svg";
 import bg from "../assets/bg.png";
 import company_1 from "../assets/company_1.png";
 import company_2 from "../assets/company_2.png";
@@ -26,6 +28,7 @@ export const assets = {
   about_2,
   about_3,
   about_4,
+  close_icon,
   bg,
   company_1,
   company_2,
@@ -36,6 +39,7 @@ export const assets = {
   fact_2,
   fact_3,
   fact_4,
+  menu_icon,
   feature_1,
   feature_2,
   feature_3,
