@@ -12,11 +12,11 @@ const Navbar = () => {
           <img src={assets.logo} alt="logo" />
         </div>
         <div
-          className={`text-gray-700 bg-green-600 sm:text-sm ${
+          className={`text-gray-700 max-sm:bg-green-700 sm:text-sm ${
             !sidebarOpen
               ? "max-sm:w-0 overflow-hidden"
               : "max-sm:w-60 max-sm:pl-10"
-          } max-sm:fixed top-0 bottom-0 right-0 max-sm:min-h-screen max-sm:h-full max-sm:flex-col max-sm:bg-primary max-sm:text-white max-sm:pt-20 flex sm:items-center gap-5 transition-all`}
+          } max-sm:fixed top-0 bottom-0 right-0 max-sm:min-h-screen max-sm:h-full  max-sm:bg-primary max-sm:text-white max-sm:pt-20 flex max-sm:items-start gap-5 transition-all`}
         >
           <ul className="flex flex-col md:flex-row items-center justify-center gap-4 ">
             <img
