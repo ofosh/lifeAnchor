@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import bg from "../assets/bg.png";
-import Brands from "../components/Brands";
 import Footer from "../components/Footer";
+import { brandContact } from "../assets/assets";
 const ContactPage = () => {
   return (
     <>
@@ -90,8 +90,7 @@ const ContactPage = () => {
             <h3 className="text-2xl">Address</h3>
             <div className="pt-4">
               <p className="text-gray-900 font-light mt-2 text-md">
-                <span className="font-semibold">Location:</span> 4517 Washington
-                Ave. Manchester, Kentucky 39495
+                <span className="font-semibold">Location:</span> Kaduna, Nigeria
               </p>
               <p className="text-gray-900 font-light mt-2 text-md">
                 <span className="font-semibold">Phone Number:</span>+234 805 800
@@ -104,7 +103,15 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-        <Brands />
+        <div className="py-4 mt-5 px-8 container mx-auto">
+          <div className="flex flex-col lg:flex-row lg:justify-between items-center justify-center">
+            {brandContact.map((b, index) => (
+              <div key={index}>
+                <img className="w-[75%]" src={b.imgUrl} alt="" />
+              </div>
+            ))}
+          </div>
+        </div>
         <Footer />
       </div>
     </>

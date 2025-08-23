@@ -157,3 +157,9 @@ export const brand = [
   { imgUrl: company_4 },
   // { imgUrl: company_5 },
 ];
+export const brandContact = [
+  { imgUrl: company_2 },
+  { imgUrl: company_3 },
+  { imgUrl: company_4 },
+  // { imgUrl: company_5 },
+];

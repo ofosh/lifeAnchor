@@ -50,7 +50,7 @@ const Footer = () => {
           <h3 className="text-white text-lg font-bold mb-4">Address</h3>
           <ul className="flex flex-col gap-2  text-gray-400">
             <a href="#Home" className="hover:text-white">
-              2464 Royal Ln, Mesa, New Jersey 45463
+              Kaduna, Nigeria
             </a>
           </ul>
         </div>
